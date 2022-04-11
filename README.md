@@ -92,3 +92,4 @@ On all `Ingress` resources, include the following annotation to have SSL certs a
 `helm uninstall cert-manager -n cert-manager`
 `kubectl delete Issuers,ClusterIssuers,Certificates,CertificateRequests,Orders,Challenges --all-namespaces --all`
 `kubectl delete -f https://github.com/jetstack/cert-manager/releases/download/v1.8.0/cert-manager.crds.yaml`
+`kubectl delete ns cert-manager`
